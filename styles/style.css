@@ -16,6 +16,7 @@
 
 .header {
   position: relative;
+  min-height: 100vh;
 }
 
 .corner {
@@ -328,7 +329,7 @@
   }
 }
 
-@media (width <= 376px){
+@media (width <= 376px) {
 
   .content {
     margin-block: 10px;
@@ -366,9 +367,6 @@
   }
   .how {
     gap: 38px;
-  }
-
-  .how {
     grid-template-columns: 1fr;
     gap: 38px;
     margin-block-end: 50px;
