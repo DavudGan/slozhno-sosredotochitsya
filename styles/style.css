@@ -32,7 +32,6 @@
   block-size: 25px;
   border-top: 1px solid var(--button-border-color, #ff0070);
   border-right: 1px solid var(--button-border-color, #ff0070);
-  position: absolute;
   right: 0px;
 }
 
@@ -40,7 +39,6 @@
   content: "";
   left: 0;
   bottom: 0;
-  content: "";
   inline-size: 25px;
   block-size: 25px;
   border-bottom: 1px solid var(--button-border-color, #ff0070);
