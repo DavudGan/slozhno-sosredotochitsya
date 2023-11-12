@@ -281,7 +281,7 @@
   line-height: 82.5%;
 }
 
-@media (375px < width < 769px) {
+@media (width <= 769px) {
   .header {
     min-height: 984px;
   }
